@@ -1,0 +1,160 @@
+body {
+    /*font-family: 'Anaheim';*/
+    /*font-family: 'Roboto', serif;*/
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1em;
+}
+
+#outside {
+    background-color: lightgoldenrodyellow;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+form {
+    margin: 0 auto;
+    width: 70%;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 0.4em;
+
+}
+
+#survey-form {
+    background-color: white;
+}
+
+fieldset {
+    /*border: 1px solid lightgray;*/
+    border: 2px solid red;
+    /*border: 1px solid lightslategrey;*/
+    margin: 20px;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+legend {
+    font-weight: 700;
+}
+
+#number {
+    width: 150px;
+}
+
+
+div + div {
+    margin-top: 1em;
+}
+
+/* label {
+/* display: inline-block; */
+/* width: 80px; */
+/* text-align: right; */
+/*}*/
+*/
+
+input, textarea {
+    /* To make sure that all text field have the same font settings
+       By default, textarea are set with a monospace font */
+    /* font: 1em sans-serif; */
+
+    /* To give the same size to all text field */
+    width: 200px;
+
+    /*   -moz-box-sizing: border-box;
+           box-sizing: border-box; */
+
+    /* To harmonize the look & feel of text field border */
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    /* To give a little highligh on active elements */
+    border-color: OrangeRed;
+}
+
+textarea {
+    /* To properly align multiline text field with their label */
+    vertical-align: top;
+
+    /* To give enough room to type some text */
+    height: 5em;
+
+    /* To allow users to resize any textarea vertically
+       It works only on Chrome, Firefox and Safari */
+    resize: vertical;
+}
+
+.button {
+    padding-left: 90px;
+}
+
+button {
+    margin: 1.5em;
+    font-size: 1em;
+    text-transform: capitalize;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.option1 {
+    border: 1px solid lightgrey;
+    padding: 15px;
+    color: darkgreen;
+    /*font-weight: bold;*/
+    font-size: 16px;
+}
+
+.option2 {
+    border-bottom: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    padding: 15px;
+    margin-top: -20px;
+    color: darkred;
+    /*font-weight: bold;*/
+    font-size: 16px;
+}
+#submitbutton {
+    display: flex;
+    justify-content: center;
+}
+
+/* pretty radio */
+/*
+label > input[type="radio"] {
+    display: none;
+}
+label > input[type="radio"] + *::before {
+    content: "";
+    display: inline-block;
+    vertical-align: bottom;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.3rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: gray;
+}
+label > input[type="radio"]:checked + * {
+    color: teal;
+}
+label > input[type="radio"]:checked + *::before {
+    background: radial-gradient(teal 0%, teal 40%, transparent 50%, transparent);
+    border-color: teal;
+}
+
+label > input[type="radio"] + * {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+}*/
