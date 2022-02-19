@@ -1,2 +1,2 @@
 # Sample-Survey-Form
-![Screenshot]Survey_Form.png
+https://github.com/parvej35/Sample-Survey-Form/Survey_Form.png
